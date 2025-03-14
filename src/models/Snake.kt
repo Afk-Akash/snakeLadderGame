@@ -1,6 +1,6 @@
 package models
 
-class Snanke(
+class Snake(
     val mouth: Int,
     val tail: Int
 ) {

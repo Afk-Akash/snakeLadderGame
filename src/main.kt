@@ -7,10 +7,10 @@ fun main() {
 
     val dice = Dice(2)
 
-    val snake1 = Snanke(20, 10)
-    val snake2 = Snanke(30, 5)
-    val snake3 = Snanke(40, 25)
-    val snake4 = Snanke(49, 20)
+    val snake1 = Snake(20, 10)
+    val snake2 = Snake(30, 5)
+    val snake3 = Snake(40, 25)
+    val snake4 = Snake(49, 20)
     val snakes = listOf(snake1, snake2, snake3, snake4)
 
     val players = ArrayDeque<Player>()
