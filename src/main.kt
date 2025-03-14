@@ -24,6 +24,6 @@ fun main() {
     val ladders = listOf(ladder4, ladder3, ladder2, ladder1)
 
     playingBoard = PlayingBoard(50,players, snakes, ladders, dice)
-
-    playingBoard.init()
+    val gameEngine = GameEngine(playingBoard)
+    gameEngine.init()
 }
